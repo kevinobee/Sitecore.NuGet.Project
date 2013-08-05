@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Sitecore.NuGet.Project</id>
+    <version>0.0.0</version>
+    <authors>Kevin Obee</authors>
+    <owners>kevinobee</owners>
+    <projectUrl>https://github.com/kevinobee/Sitecore.NuGet.Project</projectUrl>
+    <iconUrl>http://www.sitecore.net/favicon.ico</iconUrl>
+    <description>This project demonstrates how to structure a project to generate Sitecore.NuGet packages</description>
+    <releaseNotes>
+* 1.0.0 Initial release of package
+* 1.0.1 Bug fixes for injector filter
+    </releaseNotes>
+    <tags>Sitecore NuGet Build</tags>
+    <language>en-GB</language>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\artifacts\Build\Sitecore.NuGet.Project.dll" target="lib\net40" />
+    <file src="..\..\artifacts\Build\Sitecore.NuGet.Project.pdb" target="lib\net40" />
+  
+    <file src="..\..\src\Sitecore.NuGet.Project\serialization\**\*" target="serialization" />
+    <file src="..\..\src\Sitecore.NuGet.Project\tools\**\*" target="tools" />
+  </files>
+</package>
