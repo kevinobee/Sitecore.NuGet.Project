@@ -18,6 +18,8 @@ This project demonstrates how to structure a Visual Studio project to compile, b
 
 * Place your `Sitecore.Kernel.dll`` assmebly in the `\lib` directory. For more details refer to the [README.md](/lib/README.md) file in the lib folder.
 
+* Add the required Sitecore assemblies to the `\tool\Sitecore.Courier` directory. For more details refer to the [README.md](/tools/Sitecore.Courier/README.md) file in the tools\Sitecore.Courier folder.
+* 
 * Run `.\build`  from the root of the checkout folder to invoke an automated release build of the project.
 
 The outputs from the automated build will be written to the `artifacts` folder.
