@@ -35,3 +35,9 @@ lib/*.pdb
 # Build ignores
 /msbuild.log
 /artifacts
+
+# Sitecore.Courier ignores
+/tools/Sitecore.Courier/Sitecore.Kernel.dll
+/tools/Sitecore.Courier/Sitecore.Logging.dll
+/tools/Sitecore.Courier/Sitecore.Update.dll
+/tools/Sitecore.Courier/Sitecore.Zip.dll
